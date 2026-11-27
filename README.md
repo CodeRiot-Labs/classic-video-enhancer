@@ -137,35 +137,6 @@ Because the installer bundles PyTorch, CUDA runtime libraries, neural network we
 
 ---
 
-## Building from Source
-
-Developers who wish to run or customize the application from source require **Python 3.11 (64-bit)** on Windows:
-
-```cmd
-git clone [https://github.com/CodeRiot-Labs/classic-video-enhancer.git](https://github.com/CodeRiot-Labs/classic-video-enhancer.git)
-cd classic-video-enhancer
-
-python -m venv .venv
-.venv\Scripts\activate
-
-pip install torch torchvision --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
-pip install customtkinter numpy pillow pystray pyinstaller
-```
-
-Ensure `ffmpeg.exe` and `ffprobe.exe` are placed in the project root and `realesr-general-x4v3.pth` is placed inside `models/`, then run:
-
-```cmd
-python main.py
-```
-
-To build the standalone executable bundle:
-
-```cmd
-pyinstaller --clean --noconfirm ClassicVideoEnhancer.spec
-```
-
----
-
 ## Privacy & Security Guarantee
 
 * **Zero External Network Calls:** No internet connection is required or used during video analysis, upscaling, or encoding.
