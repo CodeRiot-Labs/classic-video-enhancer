@@ -20,9 +20,8 @@
 4. [Real-World Use Cases](#real-world-use-cases)
 5. [Best Practices & Restoration Workflow](#best-practices--restoration-workflow)
 6. [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
-7. [Building from Source](#building-from-source)
-8. [Privacy & Security Guarantee](#privacy--security-guarantee)
-9. [Support the Project](#support-the-project)
+7. [Privacy & Security Guarantee](#privacy--security-guarantee)
+8. [Support the Project](#support-the-project)
 
 ---
 
@@ -44,6 +43,40 @@
 * **Unattended Batch Queue & System Tray Mode:** Queue multiple videos, monitor live FPS/VRAM telemetry, and minimize to the Windows system tray during overnight remastering runs.
 
 ---
+
+## Visual Samples (10s Preview Modes)
+
+All samples below were generated locally using the built-in **10-Second Preview** mode across the supported aspect ratio and native upscaling options:
+
+### 1. Smart Stretch (4:3 to 16:9)
+Non-linear widescreen expansion that fills a 16:9 frame while minimizing horizontal distortion on central subjects:
+
+https://github.com/user-attachments/assets/a7775d51-fd1f-4953-8936-4011663b4f03
+
+### 2. Blurred Background (4:3 to 16:9)
+Preserves the original 4:3 framing centered over a dynamically blurred widescreen background fill:
+
+https://github.com/user-attachments/assets/2c3f0cd8-3520-43ff-ad86-6b39f0fdd3cf
+
+### 3. Cinematic Crop (4:3 to 16:9)
+Full-frame 16:9 presentation via vertical framing adjustment without sidebars:
+
+https://github.com/user-attachments/assets/7bcc6907-d944-4397-afa9-5ada4259bf05
+
+### 4. Pillarbox (4:3 in 16:9)
+Maintains the exact 4:3 aspect ratio inside a standard 16:9 container with clean black sidebars:
+
+https://github.com/user-attachments/assets/57435f52-5252-4623-954e-11b4f5b32a0c
+
+### 5. 2× Native Upscale (1280×960)
+Pixel-accurate 2× AI super-resolution preserving the native 4:3 aspect ratio:
+
+https://github.com/user-attachments/assets/0c1f7636-b340-4b04-8c9f-34d882cad994
+
+### 6. 4× Native Upscale (2560×1920)
+Maximum 4× AI super-resolution preserving the native 4:3 aspect ratio for high-resolution displays:
+
+https://github.com/user-attachments/assets/4a3ecd57-534f-46d2-bf8e-d31c25c0fb9f
 
 ## Dynamic Hardware Detection & VRAM Protection
 
