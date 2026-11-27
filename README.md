@@ -1,7 +1,7 @@
 # Classic Video Enhancer
 
 **AI-Powered Restoration & 1080p Remastering Suite for 80s & 90s Music Videos**  
-*Developed by [CodeRiot Labs](https://coderiotlabs.com)*
+*Developed by [CodeRiot Labs](https://classicvideoenhancer.coderiotlabs.com/)*
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%20(64--bit)-blue)
 ![Engine](https://img.shields.io/badge/AI%20Engine-PyTorch%20%2B%20Real--ESRGAN-orange)
@@ -178,5 +178,5 @@ pyinstaller --clean --noconfirm ClassicVideoEnhancer.spec
 
 Classic Video Enhancer is developed and maintained by **CodeRiot Labs**. If this tool helped restore your music video collection, consider supporting ongoing development and future updates:
 
-* **Website:** [https://coderiotlabs.com](https://coderiotlabs.com)
-* **Support / Donations:** Visit [coderiotlabs.com](https://coderiotlabs.com) to contribute via PayPal.
+* **Website:** [https://classicvideoenhancer.coderiotlabs.com/](https://classicvideoenhancer.coderiotlabs.com/)
+* **Support / Donations:** Visit [classicvideoenhancer.coderiotlabs.com](https://classicvideoenhancer.coderiotlabs.com/) to contribute via PayPal.
